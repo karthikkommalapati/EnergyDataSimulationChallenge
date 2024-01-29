@@ -6,7 +6,7 @@
     "@types/chartjs": "^0.0.31",
     "chart.js": "^2.8.0",
     "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.9.10"
   },
   "devDependencies": {
     "tslint": "^5.14.0",
