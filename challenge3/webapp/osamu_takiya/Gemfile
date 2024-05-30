@@ -4,18 +4,18 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.5'
-gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
+gem 'rails', '~> 5.2.3'
 
 # TODO: バージョン指定をしていないものはする
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bugsnag'
 gem 'bulma-rails'
 gem 'chartkick'
-gem 'dotenv-rails', '~> 2.7.1'
-gem 'gon'
+gem 'dotenv-rails', '~> 2.7.2'
+gem 'gon', '>= 6.3.1'
 gem 'mysql2'
-gem 'sassc-rails', '~> 2.1.0'
-gem 'slim-rails'
+gem 'sassc-rails', '~> 2.1.1'
+gem 'slim-rails', '>= 3.3.0'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 gem 'unicorn', '~> 5.5.0'
@@ -25,12 +25,12 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'byebug'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 5.0.2'
   gem 'pry-byebug'
   gem 'pry-coolline'
   gem 'pry-doc'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.8.3'
 end
 
 group :development do
@@ -41,16 +41,16 @@ group :development do
   gem 'capistrano-rbenv'
   gem 'capistrano-yarn'
   gem 'capistrano3-unicorn'
-  gem 'erd'
+  gem 'erd', '>= 0.6.4'
   gem 'listen', '>= 3.0.5', '< 3.2'
-  gem 'rubocop-rails_config', '~> 0.4.3'
+  gem 'rubocop-rails_config', '~> 0.4.4'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 4.0.0'
 end
 
 group :test do
-  gem 'capybara', '>= 2.15'
-  gem 'chromedriver-helper'
+  gem 'capybara', '>= 3.15.0'
+  gem 'chromedriver-helper', '>= 2.1.1'
   gem 'selenium-webdriver'
 end
