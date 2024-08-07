@@ -31,7 +31,7 @@ gem 'html2slim'
 gem 'chart-js-rails'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-gem 'bootstrap'
+gem 'bootstrap', '>= 5.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
