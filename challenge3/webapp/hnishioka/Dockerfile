@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:3.3.7-bookworm
 
 ENV LANG C.UTF-8
 ENV APP_ROOT /energy_data_simulator
