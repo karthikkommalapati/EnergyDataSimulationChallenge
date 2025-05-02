@@ -30,7 +30,7 @@ group :development, :test do
   gem 'pry-coolline'
   gem 'pry-doc'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 
 group :development do
