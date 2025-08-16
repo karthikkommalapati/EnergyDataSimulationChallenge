@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '< 5.0.0'
+gem 'rails', '~> 7.1', '>= 7.1.5.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -54,6 +54,6 @@ group :development, :test do
   gem 'pry-stack_explorer'
 end
 
-gem 'activerecord-import'
+gem 'activerecord-import', '>= 0.16.0'
 gem 'draper'
 gem 'gon'
