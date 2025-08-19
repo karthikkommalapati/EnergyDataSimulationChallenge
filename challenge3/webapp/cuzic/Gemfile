@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # source 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '7.1.5.2'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -56,7 +56,7 @@ gem 'bootstrap-sass'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => "bootstrap3"
 
-gem 'rails_admin'
+gem 'rails_admin', '>= 3.0.0'
 
 # source 'https://rails-assets.org' do
 #   gem 'rails-assets-dcjs'
