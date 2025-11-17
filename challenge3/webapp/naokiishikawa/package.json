@@ -2,9 +2,9 @@
   "name": "naokiishikawa",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.0.1",
+    "@rails/webpacker": "^4.0.0",
     "vue": "^2.4.4",
-    "vue-loader": "^13.0.4",
+    "vue-loader": "^15.0.0",
     "vue-template-compiler": "^2.4.4",
     "chart.js": "^2.7.0",
     "vue-chartjs": "^2.8.7",
